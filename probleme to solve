@@ -1,0 +1,12 @@
+Error 1 :  
+skplt.metrics.plot_confusion_matrix(y_test, predicted_classes,normalize=False)
+plt.show()
+-----> didnt show anythink :/ it suppose to show a matrice (page 25 )
+
+---------------------------------------------------------------------------
+Error 2 :  Traceback (most recent call last)
+/tmp/ipykernel_3633/2979363585.py in <module>
+----> 1 print (confusion_matrix(y_test, predicted_classes))
+
+NameError: name 'predicted_classes' is not defined
+
