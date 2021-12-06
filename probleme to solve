@@ -1,12 +1,25 @@
-Error 1 :  
+Error 1 Cell[40] : (-----------solved-----------)
 skplt.metrics.plot_confusion_matrix(y_test, predicted_classes,normalize=False)
 plt.show()
 -----> didnt show anythink :/ it suppose to show a matrice (page 25 )
 
----------------------------------------------------------------------------
-Error 2 :  Traceback (most recent call last)
-/tmp/ipykernel_3633/2979363585.py in <module>
-----> 1 print (confusion_matrix(y_test, predicted_classes))
+------------------
 
-NameError: name 'predicted_classes' is not defined
+---------------------------------------------------------------------------
+
+Error 2 Cell[37] : (------------------- not solved ---------------------------)
+
+AttributeError                            Traceback (most recent call last)
+/tmp/ipykernel_4030/3892337532.py in <module>
+----> 1 Model.sumary()
+
+AttributeError: type object 'Model' has no at
+--------------------------------------------------------------------------
+
+Error 3 Cell[48] : (------------------- not solved ---------------------------)
+
+File "/tmp/ipykernel_4030/769394618.py", line 1
+    print (classification_report(y_test,np.argmax(model.predict(X_test),target_names=None))
+                                                                                           ^
+SyntaxError: unexpected EOF while parsing
 
